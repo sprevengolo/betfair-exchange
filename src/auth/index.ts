@@ -4,7 +4,7 @@ import { URLSearchParams } from 'url';
 import { AuthParams, LOGIN_ERROR_STATUS } from './auth';
 import { AUTH_RESPONSES } from './constants';
 
-const AUTH_URL = 'https://identitysso-cert.betfair.com/api/certlogin';
+const AUTH_URL = 'https://identitysso-cert.betfair.it/api/certlogin';
 
 export const authenticate = async ({
   username,
