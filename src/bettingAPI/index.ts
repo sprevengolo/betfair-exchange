@@ -36,7 +36,7 @@ import { Operations, BettingAPIRequestParams, BettingAPIResponse } from './betti
 import { authenticate as _authenticate } from '../auth/index';
 import { AuthParams } from '../auth/auth';
 
-const BASE_URL = 'https://api.betfair.com/exchange/betting/rest/v1.0';
+const BASE_URL = 'https://api.betfair.it/exchange/betting/rest/v1.0';
 const HEADERS = {
   Accept: 'application/json',
   'Content-type': 'application/json',
